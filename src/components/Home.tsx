@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Form from './Form'
 import './Home.module.scss'
 
 const Home = () => {
@@ -85,6 +86,7 @@ const Home = () => {
               Send <i className="fa-brands fa-ethereum"></i> to your friends and family.
             </p>
           </div>
+          <Form />
         </div>
       )}
     </div>
