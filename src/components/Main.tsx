@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
+import List from './List'
 import './Main.module.scss'
 import UserConnected from './UserConnected'
 import UserNotConnected from './UserNotConnected'
@@ -69,6 +70,7 @@ const Home: Component = () => {
       ) : (
         <div className="user-connected">
           <UserConnected account={currentAccount} />
+          <List />
         </div>
       )}
 
