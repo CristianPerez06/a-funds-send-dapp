@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.scss'
-import Home from './components/Home'
+import Main from './components/Main'
 
 type Component = () => JSX.Element
 
 const App: Component = () => {
   return (
     <div className="App">
-      <Home />
+      <Main />
     </div>
   )
 }
